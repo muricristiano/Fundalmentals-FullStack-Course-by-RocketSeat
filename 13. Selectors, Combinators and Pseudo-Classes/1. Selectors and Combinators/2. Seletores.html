@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2. Seletores.css">
+</head>
+<body>
+    <p>
+        Todos os &lt;p&gt; estão selecionados e alterados para cinza
+    </p>
+
+    <p>
+        Todos os &lt;p&gt; alteram a cor quando passa o mouse em cima <br>
+        estão selecionados por um estado/pseudo-class p:hover{}
+    </p>
+
+    <h1>Seletor por #ID</h1>
+    <p  id="paragrapherId">Parágrafo com ID
+    </p>
+    <p class='paragrafosPares'>Paragrafo 2</p>
+    <p> Paragrafo 3</p>
+    <p class='paragrafosPares'>Paragrafo 4</p>
+
+    <h2>Seletor de classes</h2>
+    <p class='a'>elemento com class=a</p>
+    <p>paragrafo</p>
+    <p class='a'>elemento com class=a</p>
+    <p>paragrafo</p>
+
+    <h2>Seletor de atributos do elemento</h2>
+    <p title="Algum titulo">elemento cujo possui atributo "title", não um title específico, apenas por ter o atributo independente do valor dele</p>
+    <p>palavra</p>
+
+    <h2>Seleção múltipla</h2>
+    <p title="só para mudar para vermelho junto da outra tag p">Basta separar por vírgula: <br> <BR>
+        p, h1, .classeX { <BR> color: algumacor<br>}</p>
+
+</body>
+</html>

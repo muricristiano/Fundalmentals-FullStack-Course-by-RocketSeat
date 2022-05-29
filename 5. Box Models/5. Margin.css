@@ -1,0 +1,37 @@
+div{
+    height:100px;
+    width:100px;
+    border: 1px solid;
+
+    /* margin-top | margin-right | margin-bottom | margin-left */
+
+    /* shorthand margin */
+    margin: 20px 0 10px 50px; /* up, right, bottom, left */
+}
+
+/* SHORTHAND para padding e margin:
+
+    EM ORDEM:
+
+
+    margin: 10px (todos os lados com margin igual, horizontais e verticais
+    margin: 10px 15px (o primeiro margin é vertical (cima e baixo), o segundo é horizontal (esq e dir)
+    margin: 10px 15px 5px (o primeiro é CIMA, o segundo é horizontal (esq e dir), e o terceiro é o de baixo.
+    margin: 10px 15px 5px 20px (ordem: CIMA, DIREITA, BAIXO, ESQUERDA, igual a ordem do relógio)
+    
+*/
+
+
+ /* POR PADRÃO, o browser, aplica 8px de margin na página inteira, é alteravél se mudar o margin do body no css. */
+body{
+    margin: 0;
+}
+
+section{
+    height:100px;
+    width:100px;
+    border: 1px solid;
+
+    /* calcula as margens laterais para centralizar, o auto exclusivamente é para laterais. */
+    margin: auto;
+}

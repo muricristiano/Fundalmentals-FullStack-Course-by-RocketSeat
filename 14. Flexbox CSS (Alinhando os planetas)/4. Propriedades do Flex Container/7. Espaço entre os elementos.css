@@ -1,0 +1,20 @@
+/* 
+    gap:
+    -espaços entre os elementos (diferente do justify-content)
+    - É fixo.
+    - Não é flexível como justify-content
+
+    valores (unidades de medidas)
+    fixas: px | pt
+    flexíveis: % | em | rem
+*/
+
+.box{
+    display:flex;
+    border: 1px dashed red;
+    gap: 10% /* Aqui pode ser qualquer outra propriedade como %, em, rem */
+}
+
+.box div{
+    border:1px solid;
+}

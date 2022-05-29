@@ -1,0 +1,43 @@
+/* 
+    flex-shrink: (default:1)
+
+    é o encolhimento dos itens dentro de um espaço que é menor do que o tamanho total desses itens
+
+    default:1 - significa a fração que todos os itens respeitaram, ou seja, 1 fração por cada 1 item. Proporcionalmente iguais.
+
+    os tamanhos dos itens aqui são flex-basis:500px;
+
+
+    O mesmo funciona para Column, transformando-se em "altura", pelo flex-basis ser relativo a direção da flex
+*/
+
+.container {
+    display: flex;
+    border: dashed;
+    width: 200px;
+}
+
+.container div{
+    border: red solid 2px;
+
+    flex-basis: 70px;
+}
+
+
+.container div:nth-of-type(2),
+.container div:nth-of-type(3){
+    flex-shrink: 2;
+}
+/* 
+    1 - significa a fração que todos os itens respeitaram, ou seja, 1 fração por cada 1 item. Proporcionalmente iguais.
+
+    2 - significa que ele vai encolher mais do que os outros, o encolhimento é relativo ao tamanho total da box, e o tamanho de cada item, ocupando-a.
+
+    Caso A:
+    Se tivermos uma box exata de 200px e 4 itens de 50px, o shrink não será nem mesmo aplicado, pois está exato. Não é necessário encolher.
+
+    Caso B:
+    Se tivermos uma box exata de 200px, 4 itens de 60px, o shrink aplicado irá diminuir o tamanho dos itens aplicados ATÉ que todos os outros elementos que estão com tamanhos automáticos atinjam seu tamanho definido. É referenete aos outros elementos o quanto ele irá se encolher.
+    Porém podemos alterar o número para se encolher cada vez mais, conforme subimos do 1, para cima, exemplos: 1.1, 2, 2.5, 3, 4, etc.
+
+*/

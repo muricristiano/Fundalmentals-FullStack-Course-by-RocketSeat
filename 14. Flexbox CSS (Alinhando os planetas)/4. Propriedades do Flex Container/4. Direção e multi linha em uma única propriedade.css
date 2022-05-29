@@ -1,0 +1,19 @@
+/* 
+    SHORTHAND
+
+    flex-flow
+    - SHORTHAND de:
+    - flex-direction || flex-wrap
+*/
+
+.box{
+    display:flex;
+    flex-flow: row-reverse wrap; /* Se adicionar só uma, servirá apenas para direction, se colocar duas, a segunda wrap. (Se o único valor correspondente é do wrap, ele funcionará pelo wrap flexivelmente) */
+    border: 1px dashed red;
+}
+
+.box div{
+    border: 1px solid red;
+    width: 180px
+}
+

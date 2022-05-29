@@ -1,0 +1,9 @@
+/* A ordem da estilização é de cima para baixo, podendo sobreescrever */
+
+h1 {
+    color:red;
+}
+
+h1{ /* Está sobreescrevendo o style acima */
+    color:blue;
+}

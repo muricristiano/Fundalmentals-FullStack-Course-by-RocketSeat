@@ -1,0 +1,10 @@
+p {
+    color: #0f09;
+
+    /* /*<hex-color> values > 0123456789ABCDEF
+        color: #090; (RGB)
+        color: #009900; (RR GG BB)
+        color: #090a; (R G B Transparency)
+        color:#009900aa; (RR GG BB TransparencyTransparency)
+    */
+}

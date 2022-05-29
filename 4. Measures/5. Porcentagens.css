@@ -1,0 +1,9 @@
+li {
+    font-size: 80%; /* Alterando todos os <li>, diminuindo a cada hierarquia a abaixo baseado no 80% acima, veja no preview o exemplo 80% */
+}
+
+div {
+    background-color: blue;
+    width: 100%; /* 100% do body */
+    height: 50%; /* 50% do body */
+}

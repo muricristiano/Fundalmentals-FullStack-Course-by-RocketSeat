@@ -1,0 +1,22 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 2000px;
+    width: 2000px;
+    border: solid;
+
+    /* Background-color */
+    /* background-color: hsl(180, 100%, 50%); */
+    background-image: url(http://source.unsplash.com/random);
+
+    /* background-repeat */
+    background-repeat: no-repeat; 
+
+    /* 
+        repeat: (DEFAULT) repete horizontalmente e verticalmente
+        repeat-y: repete verticalmente
+        repeat-x: repete horizontalmente
+    */
+}

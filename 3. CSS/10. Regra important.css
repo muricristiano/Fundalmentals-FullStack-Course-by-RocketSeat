@@ -1,0 +1,16 @@
+/* 
+    Existeu uma regra que sobreescreve todas as forças das pontuações
+
+    Não recomendável, último recurso.
+
+    Ela só será sobreescrita por outro atributo '!important'
+ */
+
+ p {
+     color:blue !important; /* Não funcionaria se não fosse o !important, forçou o uso mesmo com a alteração abaixo sobreescrevendo */
+ }
+
+ body p {
+     color:red;
+ }
+

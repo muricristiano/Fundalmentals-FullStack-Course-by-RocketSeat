@@ -1,0 +1,61 @@
+<!-- 
+    <input type="email">
+
+    - espera que o usuário digite um email
+    - irá validar se o valor digitado é um email
+
+    # atributos
+    - placeholder
+    - readonly / disabled
+    - value
+
+    - required
+
+    - multiple
+        * o campo poderá receber 1 ou mais emails no mesmo campo separado por vírgulas
+
+    - minlenght / maxlenght
+        - o mínimo e/ou máximo valor que o campo irá conter
+
+    - size
+        - valor numérico indicando quantos caracteres ficarão visíveis (Tamanho do campo)
+
+    - pattern
+        - uso de expressão regular para validar o campo
+        - define um padrão a ser aceito, por exemplo um e-mail específico de um domínio (______@2e.art.br), sendo assim ficaria: pattern=".+@2e\.art\.br"
+        . = significa qualquer caractere e números de caractere
+        + = significa a ligação do conteúdo que receberá ao conteúdo obrigatório
+        \ = significa que aceitará o próximo caractere sem ser um código do atributo pattern
+
+    - list
+        - o ID de uma tag <datalist> que está no mesmo documento
+        - o <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário, quais valores estão disponíveis
+                - os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
+
+ -->
+
+
+
+ <form action="">
+     
+    <datalist id="emailslist">
+        <option>muricristiano@2e.art.br</option>
+        <option>mu@2e.art.br</option>
+        <option>2e@2e.art.br</option>
+     </datalist>
+
+    <input type="email"
+        name="" 
+        id=""
+        required
+        multiple
+        minlenght="7"
+        maxlenght="40"
+        size="30"
+        pattern=".+@2e\.art\.br"
+        title="- Somente emails @2e.art.br serão aceitos"
+        list="emailslist"
+    >
+
+     <button type="submit">Enviar</button>
+ </form>

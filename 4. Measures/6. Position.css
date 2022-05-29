@@ -1,0 +1,8 @@
+.box { 
+    height: 300px;
+    width: 400px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    
+    background-position: center; /* Posição da parte da imagem que está pegando, pois está cortando ao definir o tamanho, pode ser 2 valores, o primeiro para a posição vertical, e o segundo para posição horizontal */
+}

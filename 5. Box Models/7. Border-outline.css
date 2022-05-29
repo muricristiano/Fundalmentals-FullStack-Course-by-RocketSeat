@@ -1,0 +1,16 @@
+div {
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+
+    border: solid;
+    /* shorthand */
+    border-top: 10px dotted green;
+    border-bottom: none;
+
+    /* OUTLINE */
+    /* É uma borda de camada extra, fora da caixa, não altera o tamanho da caixa por padrão, somente externo */
+    outline: blue solid 10px;
+}

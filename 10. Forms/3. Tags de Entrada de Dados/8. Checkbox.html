@@ -1,0 +1,57 @@
+<!-- 
+    <input type="checkbox">
+        - caixas que podem ser marcadas
+        - selecionar um valor para ser enviado
+        - se não selecionado, não será enviado nenhum dado
+
+    # Atributos
+        - globais
+        - value
+            - valor que aquele campo contém
+            - se for marcado, mas value não estiver definido, o padrão é "on"
+            - se não for marcado, nem definido o value, o valor é apenas vazio, nem off, nem null, apenas vazio.
+            - possível usar como exemplo como "value=subscribed" no exemplo possível abaixo
+
+        - checked
+            - para deixar o campo marcado por padrão
+
+        # COMO MARCAR MÚLTIPLOS VALORES?
+            - Usaremos o atributo 'name' com o mesmo nome para os diversos campos
+ -->
+
+ <label for="idSubscribed">Receber notificações</label>
+ <input type="checkbox" 
+        name="nameSubscribed" 
+        id="idSubscribed"
+        checked
+>
+
+<br>
+<br>
+<br>
+
+<!--         
+            # COMO MARCAR MÚLTIPLOS VALORES?
+            - Usaremos o atributo 'name' com o mesmo nome para os diversos campos
+            - No backend ele receberá algo como interest=music,coding, ou interest=music ou interest=coding ou interest=
+-->
+
+<fieldset>
+    <legend>Choose your interests</legend>
+    <div>
+        <input type="checkbox" 
+                    name="interest" 
+                    id="coding" 
+                    value="valueCoding"
+        >
+        <label for="coding">Coding</label> <!-- Label depois do input é um padrão normal para checkbox -->
+    </div>
+    <div>
+        <input type="checkbox" 
+                    name="interest" 
+                    id="music" 
+                    value="valueMusic"
+        >
+        <label for="music">Music</label>  <!-- Label depois do input é um padrão normal para checkbox -->
+    </div>
+</fieldset>

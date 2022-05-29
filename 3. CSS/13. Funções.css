@@ -1,0 +1,5 @@
+/* Funções no CSS, são funções com argumentos dentro dos parenteses que significa algo para a execução da função */
+
+p {
+    color: rgb(255, 0 100); /* Aqui é a função rbg(), dentro dela colocamos 3 valores, sendo eles em ordem, red, green, blue. Onde retorna uma cor dependendo dos valores que colocamos */
+}

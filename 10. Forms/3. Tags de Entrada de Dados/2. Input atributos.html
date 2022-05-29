@@ -1,0 +1,27 @@
+<!-- 
+    <input> atributos comuns
+
+    LINKS:
+    - id (link para a label)
+    &
+    - form (link para o "id=" do form) 
+    &
+    - name (link para o "backend" do form)
+
+    - autocomplete (sugere autocompletar o input, baseado no padrão do mesmo campo salvo nos cookies do browser) exemplo: autocomplete="email", ao digitar autocomplete="" aparecerá as várias opções.
+
+    - autofocus (atributo boolean) ele iniciará o foco ativado no input ao carregar a página, para escrever diretamente, somente 1 por página, se tiver mais de 1, o navegador pegará o primeiro e irá ignorar os outros
+
+    - disabled (atributo boolean) deixa desabilitado, pode ser habilitado após clicar em algum check, ou ter inserido um valor anteriormente.
+
+    - value (texto) um valor inicial já escrito no campo para
+
+    - placeholder (texto) um texto fantasma, que sua finalidade é apenas a indicação "digite aqui"
+
+    - readonly (texto) aspecto diferente do disable, pode se copiar o texto por exemplo, mas não alterar
+
+    - required (atributo boolean) campo obrigatório, serve para quase todos os input types, exige que esse campo seja preenchido antes de enviar o formulário
+ -->
+
+ <label for="idEmail">Email:</label>
+ <input id="idEmail" type="email" autocomplete="email" placeholder="Digite seu e-mail" >

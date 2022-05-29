@@ -1,0 +1,33 @@
+<!-- 
+    <audio>
+    
+    - src
+    - controls
+    - fallback (automatico) - se não funcionar
+
+    -source
+        -src
+        -type
+
+        <!-- PREFERÊNCIA: USE RECURSOS/BANDA DE TERCEIROS:
+    soundcloud
+    nuvens
+    redes sociais
+    etc... 
+
+    Caso o audio esteja no projeto, o browser tera de fazer o download da página com o audio junto para carregar
+-->
+ -->
+
+ <!-- Forma mais curta -->
+<audio src="Files/AudioA.mp3" type="audio/mp3" controls loop>
+    Fallback - Se não funcionar
+</audio>
+
+<!-- Forma mais segmentada e separada -->
+<audio controls autoplay loop>
+    <source src="Files/AudioA.mp3" type="audio/mp3">
+    <p>Esse navegador não suporta audio.</p>
+</audio>
+
+<!-- Propriedades disponíveis semelhantes as de video, estudar no MDN -->

@@ -1,0 +1,20 @@
+/* 
+    Funções
+        Existem funções padrão do css, uma grande biblioteca.
+        rgb(), calc(), hex(), etc...
+*/
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.box { 
+    height: calc(100%); /* Por padrão o body só ocupa o espaço dos elementos que possuem nele, precisamos aumentar o body para 100% da vh e vw, para os filhos utilizarem por % o máximo potencial dela */
+    width: calc(100% -50px);
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    
+    background-position: center; /* Posição da parte da imagem que está pegando, pois está cortando ao definir o tamanho, pode ser 2 valores, o primeiro para a posição vertical, e o segundo para posição horizontal */
+}

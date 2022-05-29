@@ -1,0 +1,52 @@
+<!-- 
+    SVG <svg>
+
+    Cria formas vetorizadas (que se adapta conforme altera-se a Viewport)
+
+    Imagem rasterizada fixa (pixels) X Imagem Vetorizada (adaptável/dinâmica a zoom in/out)
+
+    Benefícios
+    - Mais leve (texto/código)
+    - Mais detalhada
+    - Maior acessibilidade e SEO
+    - Pode ser editada via CSS ou atributos 
+
+    Desvantagens
+    - Pode ser mais complexo
+    - Quanto mais complexa a imagem, mais difícil para o browser
+    - Browsers antigos não possuem suporte 
+
+    Para fotografias prefira usar imagens rasterizadas
+
+
+
+    SITE PARA CRIAÇÃO DE SVG FACILITADO:
+    Figma
+ -->
+
+ <!-- Width, Height = Definem o espaço da "tela de pintura" -->
+ <!-- CX, CY, (default: 0) definem onde o ponto central do SVG se localizará, certifique-se de centralizar conforme a width/height, nesse caso aqui, width/height=200, então cx/cy=100 centraliza o círculo -->
+ <!-- r = define o raio, sendo 98, ocupará 160 de largura e altura (Pode usar %) -->
+ <!-- stroke-width = adiciona somente 1x na circunferencia total, resultando nesse exemplo no circulo perfeitamente encaixado no 200/200, insira 1px no r, e irá cortar o circulo -->
+ <svg width="200" height="200">
+     <circle
+        cx="100"
+        cy="100"
+        r="98"
+        stroke="green"
+        stroke-width="4"
+        fill="yellow">
+ </svg>
+
+ <!-- Não precisa posicionar -->
+ <!-- % também define tamanho na tela inteira -->
+ <svg width="200" height="200">
+    <rect 
+        stroke="blue"
+        stroke-width="4"
+        width="100%"
+        height="80%"
+        fill="green">
+ </svg>
+
+<img src="./svgFiles/circle.svg" alt="Não carregou">

@@ -1,0 +1,19 @@
+.container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: center;
+    gap: .8rem;
+    align-items: center;
+}
+
+.col1, .col2, .col3 {
+    display: flex;
+    gap: .8rem;
+}
+
+.item {
+    border: solid;
+    height: 40px;
+    width: 70px;
+}

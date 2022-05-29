@@ -1,0 +1,22 @@
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.box1 {
+    background-color: red;
+    position: relative;
+    left: 100px; /* Criou espaço do lado esquerdo */
+    top: 80px; /* Criou espaço de cima */
+}
+
+.box2 {
+    background-color: orange;
+    position: relative;
+}
+
+.box3 {
+    background-color: yellow;
+    position: relative;
+}

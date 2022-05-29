@@ -1,0 +1,9 @@
+h1 {
+    color: yellow;
+
+    /* offset-x | offset-y | blur-radius (0=none) | color */
+    /* posição X | posição Y | desfoque (0 = nenhum, sólido | cor */
+    text-shadow:
+    1px 1px 0px orange, /* Primeira sombra, laranga */
+    2px 2px 1px red; /* Cada linha uma sombra diferente, essa está abaixo */
+}

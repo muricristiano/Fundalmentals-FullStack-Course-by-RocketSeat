@@ -1,0 +1,15 @@
+/* 
+        Seleciona elementos com hierarquia 
+        
+            - Basta separar por espaço 
+
+            body article h1 {
+            }
+
+            Esse exemplo acima irá selecionar todos os h1 > que sejam descendentes de article >   que são descendentes de body article
+
+            Irá ignorar o h1 que não tenha essa hierarquia.
+*/
+body article h1 {
+    color: red
+}

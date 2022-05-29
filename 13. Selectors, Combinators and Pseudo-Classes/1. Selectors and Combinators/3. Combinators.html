@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3. Combinators.css">
+</head>
+<body>
+    <!-- Seleciona elementos com hierarquia mais específica 
+        
+            - Basta separar por espaço 
+
+            body article h1 {
+            }
+
+            Esse exemplo acima irá selecionar todos os h1 > que sejam descendentes de article >   que são descendentes de body article
+
+            Irá ignorar o h1 que não tenha essa hierarquia.
+    -->
+<body>
+    <h1>No css temos: <br>
+        body article h1 {
+            color: red;
+        }
+    </h1>
+    <article>
+        <h1>body-article-h1</h1>
+    </article>
+    <article>
+        <section>
+            <h1> body-article-section-h1 (funciona aqui, pois segue a hierarquia não estritamente, basta estar abaixo na hierarquia, mesmo tendo section e outros elementos no meio)</h1> 
+        </section>
+    </article>
+    <section>
+        <h1>
+            body-section-h1
+        </h1>
+    </section>
+</body>
+</html>

@@ -1,0 +1,18 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 2000px;
+    width: 2000px;
+    border: solid;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat; 
+
+    /* 
+        background-position: center | top | right | bottom | left 
+
+        shorthand: right top (primeiro vertical, segundo horizontal) ficaria no lado direito no topo.
+    */
+    background-position: right top;
+}

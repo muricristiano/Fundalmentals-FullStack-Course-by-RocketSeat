@@ -1,0 +1,37 @@
+/* 
+    Direção dos itens
+    - Flex é uma dimensão (horizontal ou vertical), na forma como irá demonstrar os itens
+    - Todo flex tem um EIXO principal, e um eixo cross
+        - Por padrão todo flex é ROW, sendo o eixo principal sendo a ROW, a linha horizontal, que é como os elementos dentro ficarão ordenados
+        - sendo assim o eixo cross é vertical
+        - É possível alterar, sendo o eixo colum sendo o principal, e o eixo cross se torna o horizontal.
+        - É possível também inverter o lado da ordem, com row-reverse, e column-reverse, começando a distribuição pelo lado oposto
+    - podemos mudar a direção com 'flex-direction'
+
+    - flex-direction:
+    - valores: (row (default) | row-reverse | column | column-reverse)
+*/
+
+.container{
+    display: flex; /* Habilita as funções desse módulo */
+
+    flex-direction: column;
+    background-color: grey;
+}
+
+.item{
+    border: 2px solid;
+    
+}
+
+.containerRow{
+    display: flex; /* Habilita as funções desse módulo */
+
+    flex-direction: row; /* Default */
+    height: 100px;
+    background-color: grey;
+}
+
+.itemsRow{
+    border: 2px solid;
+}

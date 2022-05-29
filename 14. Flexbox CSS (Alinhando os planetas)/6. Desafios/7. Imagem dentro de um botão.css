@@ -1,0 +1,12 @@
+button {
+    display: flex;
+    align-items: center;
+
+    line-height: 0; /* Importante remover para alinhar */
+    gap: .4rem;
+}
+
+button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}

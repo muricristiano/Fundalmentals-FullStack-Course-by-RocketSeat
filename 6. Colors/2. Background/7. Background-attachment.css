@@ -1,0 +1,29 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 1500px;
+    width: 1500px;
+    border: 7px dashed red;
+    padding: 50px;
+
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat; 
+    background-position: left top;
+    background-size: 100px 100px;
+    background-origin: padding-box; /* not working? why? */
+    background-clip: border-box;
+    /* 
+        background-attachment
+
+            Fixação da imagem na página, se é fixa ou pode ser dinâmica acompanhando a visualização.
+
+        - scroll (DEFAULT), fica na página.
+        - fixed - fixo na visualização
+
+    */
+    background-attachment: fixed; /* Aqui a imagem acompanha a visualização */
+
+
+}

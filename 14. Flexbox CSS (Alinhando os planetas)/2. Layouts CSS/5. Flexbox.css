@@ -1,0 +1,7 @@
+.flexbox {
+    display: flex;  /* Aqui já ganhou novos atributos */
+    justify-content: space-around; /* Espaço entre eles, espaços iguais para os dois lados, mesmo tendo o canto ao lado. Também temos: space-between | center. */
+}
+.item:nth-child(1){
+    order: 1 /* Alterando a ordem, fazendo com que a ordem 0 fique em primeiro (no exemplo: B e o C), então o A é mostrado como última posição */
+}

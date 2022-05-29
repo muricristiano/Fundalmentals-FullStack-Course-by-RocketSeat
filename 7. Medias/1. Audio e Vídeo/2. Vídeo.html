@@ -1,0 +1,51 @@
+<!-- 
+    <video>
+        -src
+        -se não funcionar?
+            -fallback content
+
+        -source
+            -src
+            -type
+        
+        -sobre serviços de terceiros
+
+ -->
+
+<!-- PREFERÊNCIA: USE RECURSOS/BANDA DE TERCEIROS:
+    youtube
+    vimeo
+    redes sociais
+    etc... 
+
+    Caso o video esteja no projeto, o browser tera de fazer o download da página com o video junto para carregar
+-->
+
+
+<!-- Configuações necessárias (para o chrome): 
+    src - fonte do vídeo
+    controls - adiciona controles do video  -->
+
+<!-- Forma 1 de fazer -->
+<video src="Files/VideoA.mp4" controls autoplay muted>
+    Aqui é o Fallback, usar por exemplo: "Esse browser não suporta" 
+</video>
+
+<!-- Forma 2 de fazer -->
+<!-- Outra forma de inserir o video caso a forma acima não funciona no navegador -->
+<!-- Declaração de video com controls -->
+<video controls preload poster="../../2. HTML/3. Links/Pasta de exercício/files/photoB.jpg">
+    <source src="Files/VideoA.mp4" type="video/mp4"> <!-- src e type dentro -->
+    Aqui é o Fallback, usar por exemplo: "Esse browser não suporta"
+</video>
+
+
+<!-- Propriedades que podemos usar:
+    width (somente números, mas a medida é px)
+    height (somente números, mas a medida é px)
+    autoplay (Requer: muted, muted ligado por questão de privacidade do usuário, se é autoplay, deve ser mutado. Ou não ter autoplay)
+    preload="auto" (começar a carregar o video antes do play) / "none" = DEFAULT
+    loop (loop ligado)
+    muted
+    poster="" (thumbnail do video antes de dar o play)
+ -->

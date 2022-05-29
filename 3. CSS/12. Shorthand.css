@@ -1,0 +1,26 @@
+/* 
+    Para agilizar a escrita dos códigos, são abreviações de definições, exemplos abaixo
+
+    - algumas coisas precisam ser em ordem, outras não 
+    - o que não for especificado, ficará no default
+*/
+
+p {
+        /* background properties */
+        background-color: #000;
+        background-image: url(images/bg.gif);
+        background-repeat: no-repeat;
+        background-position: left top;
+        /* SHORTHAND */
+        background: #000 url(images/bg.gif) no-repeat left top;
+    
+        
+        /* font properties */
+        font-style: italic;
+        font-weight: bold;
+        font-size: .8em;
+        line-height: 1.2;
+        font-family: Arial, sans-serif;
+        /*SHORTHAND*/ 
+        font: bold italic .8em/1.2 Arial, sans-serif;
+}

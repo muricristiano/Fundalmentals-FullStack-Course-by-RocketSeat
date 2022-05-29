@@ -1,0 +1,15 @@
+/* 
+    Distâncias absolutas e relativas
+
+    Absolutas: são fixas e não alteram seu valor dependente de uma condição externa ao elemento
+        cm
+        in
+        px
+
+    Relativas: Se adaptam a tela, ou ao elemento pai, etc.
+        em - multiplicador pelo tamanho relativo ao do pai (se o tamanho da fonte pai for 18px, e usar 2em, será 36px), se não tiver pai, definirá pelo Root
+        rem - vai direto multiplicar pelo elemento Root, pulando todos os pais.
+        vw - viewporth width - Todo o espaço vísível na janela, pela porcentagem - 1vw = 1% da largura da tela
+        vh - viewporth height - Todo o espaço vísível na janela, pela porcentagem - 1vw = 1% da altura da tela
+
+*/

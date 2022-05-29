@@ -1,0 +1,17 @@
+/* Para selecionar todos os elementos de toda a página utilize "*" */
+* {
+    margin:0;
+}
+
+/* Seleciona ID, que é unico */
+#Subtítulo {
+    color: red;
+}
+
+/* Seleciona Classe, que pode ser um conjunto classificado de elementos */
+
+/* Um elemento pode ter mais de uma classe "class=box box1 square big", e consequentemente ser selecionado por um dos atributos, juntos de outros elementos que possuem aquele atributo */
+.paragraphers {
+    color:blue;
+}
+

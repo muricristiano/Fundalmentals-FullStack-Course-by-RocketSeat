@@ -1,0 +1,18 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 1500px;
+    width: 1500px;
+    border: 7px dashed red;
+    padding: 50px;
+
+    /* SHORTHAND */
+    /* Agrupamento de todas as alterações e valores */
+
+    /* OBS IMPORTANTE: Na ordem das alterações acima, após a URL, repeat, position, size. É necessário que tenha uma barra / para depois da barra, vai por exemplo: size, origin, clip, attachment */
+    
+    /* OBS2 IMPORTANTE: Caso ao definir o background origin e clip, seja definido só 1 valor, ele aplicará para os dois, se for descrito 2x, o primeiro será para o origin, e o segundo será aplicado no clips */
+    background: url(http://source.unsplash.com/random) no-repeat left top / 100px 100px padding-box border-box fixed;     
+}

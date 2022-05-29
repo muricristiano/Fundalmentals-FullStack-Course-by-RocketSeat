@@ -1,0 +1,13 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 400px;
+    width: 400px;
+    border: 7px dashed red;
+    padding: 50px;
+
+    /* linear-gradient | radial-gradient */
+    background: linear-gradient(45deg, red, orange, yellow, orange, red, blue); /* O primeiro valor, é o ângulo do gradiente, depois em ordem, as cores das quais o gradiente irá aplicar */
+}

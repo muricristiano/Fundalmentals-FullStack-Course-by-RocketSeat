@@ -1,0 +1,32 @@
+.page {
+    display: flex;
+    border: 2px solid;
+    min-height: 95vh;
+}
+
+aside{
+    background: lightgreen;
+    flex: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    flex: 2;
+}
+
+main section:nth-child(1){
+    background: yellow;
+    flex: 2 0;
+}
+
+main section:nth-child(2){
+    background: orange;
+    flex: 0 80px; /* flex-basis(80px) e flex-grow desligado (FLEX BASIS DEFINE, grow e shrink se adaptam*/
+}
+
+main section:nth-child(3){
+    background: red;
+    flex: 1;
+}

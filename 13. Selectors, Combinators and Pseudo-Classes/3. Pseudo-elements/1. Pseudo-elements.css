@@ -1,0 +1,16 @@
+p::before{
+    content: '::before '; /* content é obrigatório ter, ao usar ::before e ::after, mesmo que seja vazio */
+    width: 50px;
+    color: red;
+}
+
+p::after{
+    content: " ::after";/* content é obrigatório ter, ao usar ::before e ::after, mesmo que seja vazio */
+    color: blue;
+}
+
+/* Selecionando apenas a primeira linha dos elementos <p> que estão visiveis na pagina (flexivel ao alterar o tamanho da janela) */
+p::first-line{
+    color:green;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 500px;
+    width: 500px;
+    border: 7px dashed red;
+    padding: 30px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
+
+    /* background-origin */
+    /* A origem da imagem, onde ela começa, DEFAULT:content, dentro da box */
+
+    /* 
+        content-box: DEFAULT, background começa onde o conteudo está, abaixo do padding
+        border-box: começa onde a borda já está (visível em uma borda dashed)
+        padding-box: começa onde o padding começa, ignorando o conteúdo
+    */
+    background-origin: border-box;
+
+
+
+    /* 
+        background-clip
+
+        Corte de imagem (não redimensionamento)
+        A partir de onde queremos que ele apareça de fato (o que não aparecer ficará invisível e cortando a imagem, não redimensionando)
+        - border-box (DEFAULT)
+        - content-box (cortará deixando apenas onde ele está acima do content)
+        - padding-box (cortará deixando em cima do content + padding)
+    */
+    background-clip: content-box; /* Cortando a imagem, tirando o padding fora */
+}

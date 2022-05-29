@@ -1,0 +1,30 @@
+body {
+    height: 100vh; /* Ocupou todo o espaço verticalmente para o "align-items: center" centralizar o que há nele verticalmente */
+    margin:0;
+    display: flex;
+    align-items: center;
+    background-color: pink; /* toda a area do body para demonstrar o exercicio */
+}
+
+.container {
+    width: 100vw; /* Ocupou todo o espaço horizontalmente para o "justify-content: center" centralizar o que há nele horizontalmente */
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}

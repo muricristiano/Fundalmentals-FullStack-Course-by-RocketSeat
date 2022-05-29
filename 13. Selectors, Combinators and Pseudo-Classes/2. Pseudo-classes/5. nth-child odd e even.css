@@ -1,0 +1,11 @@
+/* Seleciona todos os filhos de posições ímpares, do tipo selecionado (p, nesse caso)  */
+article p:nth-child(odd){
+    color:blue;
+}
+
+/* Seleciona todos os filhos de posições pares, do tipo selecionado (p nesse caso) */
+article p:nth-child(even){
+    color:red;
+}
+
+/* Como temos um h2 sendo o first child, ele não irá alterar a cor, e o primeiro 'p', é um segundo filho, sendo par, e começando com vermelho */

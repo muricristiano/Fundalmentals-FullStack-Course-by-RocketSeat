@@ -1,0 +1,42 @@
+/* 
+Box Model:  
+    - fundamental para fazer layouts na web
+    - maior facilidade de aplicar o css
+
+O que é o Box Model?
+    -Cada elemento é representado como uma caixa retangular
+    -Essa caixa possui propriedades de uma caixa em 2 dimensões (largura x altura)
+
+Propriedades da caixa
+    Tamanho (largura x altura) → width | height
+    Conteúdo → content
+    Bordas → border
+    Preenchimento interno → padding
+    Espaços fora da caixa → margin
+ */
+
+ /* DIFERENÇAS ENTRE: */
+/* box-sizing: content-box | border-box */
+
+
+.boxSizingContentBox {
+     width: 120px;
+     height: 120px;
+     border: 1px solid red;
+     margin: 10%;
+     padding: 20px; /* resulta em uma caixa com 100px + 20px + 20px = 140px de largura e de altura */
+
+    /* Isso acima acontece pois por padrão o tamanho da box é definido pelo 'box-sizing: content-box', incluindo o padding, aumentando o tamanho total da box */
+
+    /* Porém podemos alterar para 'box-sizing: border-box', sendo assim, o tamanho da box será sempre fixo, e o padding e o conteúdo dentro ficam em "lock"  */
+ }
+
+ .boxSizingBorderBox{
+    box-sizing: border-box; /* Porém podemos alterar para 'box-sizing: border-box', sendo assim, o tamanho da box será sempre fixo, e o padding e o conteúdo dentro ficam em "lock"  */
+
+    width: 120px;
+    height: 120px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 20px;
+ }

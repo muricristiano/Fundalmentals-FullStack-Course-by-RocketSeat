@@ -1,0 +1,22 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 2000px;
+    width: 2000px;
+    border: solid;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat; 
+    background-position: center;
+    /* 
+        background-size: 
+        em: (primeiro valor vertical, segundo horizontal) 
+        px: (primeiro valor vertical, segundo horizontal) 
+        contain: contém dentro cabendo na página
+        cover: cobre tudo
+        %: (% do elemento pai), caso seja inserido 2 porcentagems, a primeira é vertical e a segunda é horizontal  
+    */
+
+    background-size: 80%;
+}

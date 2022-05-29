@@ -1,0 +1,67 @@
+<!-- 
+    <iframe> (Inline frame element)
+
+    1. Videos
+    2. Mapas
+    Audios
+-->
+
+
+<!-- 1. VIDEO: -->
+
+
+ <!-- Inserindo o endereço do youtube direto não funcionou, youtube bloqueia -->
+ <iframe src="https://www.youtube.com/watch?v=x2D7jHfitzk" frameborder="0"></iframe>
+
+
+<!-- 
+    Video vindo do youtube (exemplo): 
+
+    1. Acesse a página do video no youtube
+    2. Clique em compartilhar
+    3. Selecione <> Incorporar / ou em inglês: <> Embed
+    4. Escolha as opções que o youtube oferece para já incorporar na tag iframe pronta
+    5. Copie o código do elemento <iframe> pronto e cole no código como aqui a baixo
+
+    - atributos
+        - src
+        - height
+        - width
+        - title (acessibilidade)
+        - allowfullscreen (boolean) - Default: off.
+        - frameborder (se vai ter borda ou não)
+        - allow (booleans: accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture), separados por ";"
+-->
+ <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/x2D7jHfitzk" 
+    title="Video do Atacama" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+<!-- Allow: Depende a fonta do video (Youtube/Vimeo) -->
+
+
+
+<!-- 2. MAPAS -->
+
+<!-- 
+    Incorporando link de localização através do Google Maps:
+
+    1. Selecionar o local desejado (pin)
+    2. Compartilhar
+    3. Escolher configurações para compartilhar
+    4. Copiar link e colar no código 
+-->
+
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8572401543092!2d-48.61563464979879!3d-27.566940727360276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952749bb6504291d%3A0x8edc0b971d135510!2sAv.%20Leoberto%20Leal%2C%20249%20-%20Barreiros%2C%20S%C3%A3o%20Jos%C3%A9%20-%20SC%2C%2088117-001!5e0!3m2!1spt-BR!2sbr!4v1648495344033!5m2!1spt-BR!2sbr" 
+    width="400" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>

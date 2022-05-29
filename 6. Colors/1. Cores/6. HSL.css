@@ -1,0 +1,4 @@
+p {
+    /* HSL, H: 0 à 360, Saturation: 0% á 100%, Luminance: 0% á 100%, Transparency: 0% á 100% */
+    color: hsl(359, 100%, 50%, 50%)
+}

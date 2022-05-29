@@ -1,0 +1,11 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 100px;
+    border: solid;
+
+    /* Background-color */
+    background-color: hsl(180, 100%, 50%)
+}

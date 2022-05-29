@@ -1,0 +1,29 @@
+<!-- 
+    <div> <span>
+    Elementos não semânticos, para uso genérico.
+
+    PREFERÊNCIA A USAR ELEMENTOS SEMÂNTICOS! > <div> somente quando necessário e se não houver um elemento semântico correspondente (div são faceis de usar, mas sempre procurar a melhor acessibilidade/SEO/semântica)
+
+    <div>
+        usado se não conseguir achar um elemento de bloco semântico
+
+    <span>
+        usado se não conseguir achar um elemento de texto semântico
+
+    <div> | display block
+    <span> | display row
+
+    em ambas, use atributos globais como id e class para entregar maior significado
+ -->
+
+ <h1>Título <span class=x>destacado</span></h1>
+
+ <section>
+      <!-- Por exemplo, aqui é melhor utilizar a div, pois a <section> corresponde a um maior conteúdo da pagina, e não temos um elementos semântico especifico para carrinho de compras-->
+     <h2>Carrinho de compras</h2>
+ </section>
+
+ <!-- sendo melhor utilizar assim: -->
+<div class="cart">
+    <h2>Carrinho de compras</h2>
+</div>

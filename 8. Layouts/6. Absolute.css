@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+main {
+    margin-top: 200px; /* Não aplicará no vermelho, pois o vermelho está enessa outra camada nesse exemplo (exceto caso esse pai do box1 por exemplo seja um relative, então o "absolute" do red será com um margin-top de 200px como esse elemento aqui */
+}
+
+.box1 {
+    background-color: red;
+    position: absolute; /* Qualquer margin, ou alteração em elemento pai (margin) por exemplo, não irá afetar esse e elemento, mesmo sendo filho */
+    left: 0; /* Agora é seu posicionamento absoluto sob a página inteira */
+    top: 0; /* 0 = colado em cima | Agora é seu posicionamento absoluto sob a página inteira */
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: yellow;
+}

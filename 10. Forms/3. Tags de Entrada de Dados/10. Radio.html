@@ -1,0 +1,24 @@
+<!-- 
+    <input type="radio">
+
+    - projetado para selecionar uma única opção de um grupo de opções
+
+    # Atributos
+        - checked
+            - indica que o campo foi marcado
+        - value
+            - valor que aquele campo contém
+ -->
+
+ <fieldset>
+     <!-- Ambos inputs tem name="coffee", sendo linkados dentro do <fieldset> -->
+     <legend>Bora tomar um café?</legend>
+     
+     <label for="yes">Sim</label>
+     <input type="radio" id="yes" name="coffee" value="y">
+
+     <label for="no">Não</label>
+     <input checked type="radio" id="no" name="coffee" value="n">
+     <!-- Possivel por exemplo definir um marcado como padrão
+          o input de id="no" possui checked, alterável na marcação -->
+ </fieldset>

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    border: dashed;
+}
+
+.container div{
+    border: red solid 2px;
+}
+
+/* obs: Na direção do flex-direction! */
+
+.container div:nth-of-type(1){
+    /* flex-grow: 0 (default) */
+    /* O Flex-grow representa ocupar 1 parte, de todas as partes já definidas no flex-grow, relacionado ao espaço vazio */
+    /* Ou seja, se tiver apenas 1 declarado, esse elemento ocupará tudo */
+    flex-grow: 1;
+}
+
+.container div:nth-of-type(2){
+    /* veja nesse exemplo, definimos 2 frações para o segundo elemento, ou seja, ele pegará o total de flex-grow definidos dentro do container, que é = 3, e dividirá proporcionalmente, veja que o A ocupa 33% do antigo espaço vazio, quanto B ocupa 66%, sendo o dobro do tamanho do A */
+    flex-grow: 2;
+}
+
+/* Se deixássemos iguais os números nos 2,  eles dividiriam o espaço e teriam o mesmo tamanho, embora, maior do que os outros que não foram definidos nesse exemplo */

@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    height:100vh;
+
+    display:grid; 
+
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+
+    grid-template-rows: 
+    50px
+    1fr
+    50px;
+
+    grid-template-columns: 
+    1fr
+    150px;
+}
+
+header{
+    display: flex; /* Faz mais sentido pois é somente uma linha nesse exemplo */
+    justify-content: space-between; /* Cria o espaço entre os dois elementos ficando nas extremidadas */
+    align-items: center; /* Centraliza na linha */
+    padding: 0 8px; /* Não cria margem na vertical, cria na horizontal */
+
+    background-color:yellow;
+    grid-area: header;
+}
+
+main{
+    background-color:orange;
+    grid-area: main;
+}
+
+aside{
+    background-color:darkorange;
+    grid-area: aside;
+}
+
+footer{
+    background-color: red;
+    grid-area: footer;
+}

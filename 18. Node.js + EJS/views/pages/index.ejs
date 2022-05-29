@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+    <!-- EJS: Importando o head -->
+    <%- include('../partials/head'); %>
+
+    <body class="container">
+        
+        <!-- EJS: Importando o header -->
+        <%- include('../partials/header'); %>
+
+        <main>
+            <div class="jumbotron">
+                <h1>Título da Página</h1>
+                <p>Parágrafo da aula de EJS</p>
+            </div>
+            <% arrayDeObjetos.forEach(function(itemDoArray){ %>
+                <li>
+                    <strong><%= itemDoArray.title %></strong> <%= itemDoArray.message %>
+                </li>
+            <% }) %>
+        </main>
+
+        <!-- EJS: Importando o footer -->
+        <%- include('../partials/footer'); %>
+
+    </body>
+</html>

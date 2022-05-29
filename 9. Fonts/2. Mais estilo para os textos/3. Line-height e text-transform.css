@@ -1,0 +1,4 @@
+p {
+    line-height: 1.2; /* 1.2 Default - examples: 1, 1.5, 2, 3*/
+    text-transform: uppercase; /* lowercase | uppercase */
+}

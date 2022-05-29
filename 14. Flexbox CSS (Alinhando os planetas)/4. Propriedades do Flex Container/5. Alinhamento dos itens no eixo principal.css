@@ -1,0 +1,36 @@
+/* 
+    justify-content
+    - alinhamento dos elementos dentro do container
+    - distribuição dos elementos
+
+    valores
+    - flex-start
+    - flex-end
+    - center
+    - space-around
+    - space-between
+    - space-evenly
+*/
+
+.box{
+    display:flex;
+    flex-flow: column wrap;
+    border: 1px dashed red;
+    justify-content: space-between; /* espaço entre eles iguais, mas os do canto encostam no canto */
+
+    /* space-around; - Aqui, cria epaço igual dos dois lados de cada um, os extremos terão 1x espaços do canto também, e 2x entre eles*/
+
+    /* space-evenly - Aqui os espaços entre os cantos e entre eles são exatamente iguais */ 
+
+    /* flex-start (DEFAULT) */
+
+    /* flex-end - posicionam-se no fim, mas, diferente do (flex-direction: *-reverse), ele permanece na ordem que está, apenas encosta no final ainda em ABCD */
+
+    height: 80vh
+}
+
+.box div{
+    border: 1px solid;
+    width: 80px;
+}
+

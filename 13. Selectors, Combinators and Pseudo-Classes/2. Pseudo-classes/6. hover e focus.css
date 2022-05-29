@@ -1,0 +1,10 @@
+p:hover {
+    color:red;
+    font-weight: bold;
+}
+
+input:focus {
+    border: solid 10px red;
+    height: 40px;
+    width: 80px;
+}

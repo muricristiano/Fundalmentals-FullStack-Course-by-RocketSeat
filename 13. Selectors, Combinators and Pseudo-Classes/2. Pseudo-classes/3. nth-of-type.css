@@ -1,0 +1,4 @@
+/* Aqui, está selecionando o primeiro do tipo <p> cujo é filho de article, mesmo tendo um h2 first child no article, ele segue o tipo */
+article p:nth-of-type(1){
+    color: red;
+}

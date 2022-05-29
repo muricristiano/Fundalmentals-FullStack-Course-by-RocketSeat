@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2. Largura e altura dos itens com flex-basis.css">
+</head>
+<!-- 
+    TODAS AS AULAS A SEGUIR NESSE CAPÍTULO
+    Propriedades para os itens do flex (Filhos)
+
+    - flex-basis
+    - flex-grow
+    - flex-shrink
+    - flex
+    - order
+*/
+/* 
+    flex-basis:
+    unidades de medida: px | % | em
+*/
+ -->
+<body>
+
+    <h3>flex-basis:</h3>
+    <p>É o tamanho referente à DIREÇÃO do FLEX-DIRECTION (veja abaixo)</p>
+    <p>Se for column, vai ser tamanho vertical (ainda é possível definir width/height de cada elemento individualmente)</p>
+    <p>Se for ROW, vai ser tamanho horizontal (ainda é possível definir width/height de cada elemento individualmente)</p>
+
+    <h3>container 1 - flex-direction: column, height: 300px, flex-basis 15% | Items - nth-of-type(4) - width: 250px, flex-basis: 100px</h3>
+    <div class="container">
+        <div class="items">A</div>
+        <div class="items">B</div>
+        <div class="items">C</div>
+        <div class="items">D</div>
+    </div>
+
+    <h3>container 2 - flex-direction: row (default), flex-basis: 15%, height: 25px; | Items - nth-of-type(4) - flex-basis: 250px, height:50px (para row, o height de um elemento irá automatizar a altura dos outros apenas se não estiverem definidos)</h3>
+    <div class="container2">
+        <div class="items">A</div>
+        <div class="items">B</div>
+        <div class="items">C</div>
+        <div class="items">D</div>
+    </div>
+
+</body>
+</html>

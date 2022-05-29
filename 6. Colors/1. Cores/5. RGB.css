@@ -1,0 +1,5 @@
+p {
+    /* valores de 0 à 255, r g b, e transparência de 0 à 1 (exemplo: 0.75) */
+    color: rgb(100, 0, 150, 0.75);
+    
+}

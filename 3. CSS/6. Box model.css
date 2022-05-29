@@ -1,0 +1,29 @@
+/* 
+Boxes 
+
+É uma caixa retangular. Essa caixa possui as mesmas propriedades de uma caixa 2D, e tem como propriedades:
+    Tamanho (largura x altura width e height, respectivamente
+    Conteúdo: o content
+    Bordas: o border
+    Preenchimento interno: o padding
+    Espaços fora da caixa: a margin
+
+    Quase tudo são caixas
+    todas tem bordas, cores, fundos, espaçamentos interno e externos
+    Posicionamentos flexíveis
+
+*/
+
+h1{
+    border: 1px solid red;
+    margin: 100px; /* Espaço fora da caixa */
+    padding: 60px; /* Espaço interno da borda */
+}
+
+p {
+    border: 1px solid blue;
+}
+
+button {
+    border:3px dotted black;
+}

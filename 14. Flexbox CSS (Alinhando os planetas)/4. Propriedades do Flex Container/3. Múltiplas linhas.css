@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    flex-wrap: wrap; /* Esse comportamento fará com que os itens visualmente "pulem para linha debaixo" caso não possua espaço na janela para mostrar (vh)*/
+    
+    /* flex-wrap: wrap-reverse  */ /*Também utilizavel */
+
+    /* justify-content (irá alterar como será apresentado conforme ocorre a quebra de linha: center | right | left */
+
+    border: 1px dashed red;
+}
+
+.box div{
+    border: 1px solid red;
+    width: 140px;
+}

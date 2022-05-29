@@ -1,0 +1,9 @@
+/* Pode ser selecionado diretamente pela condição, ou combinado com algum/alguns elementos, como por exemplo: body input:required{} */
+
+:required {
+    border-color: red;
+}
+
+:disabled {
+    background-color: black;
+}

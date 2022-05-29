@@ -1,0 +1,10 @@
+/* 
+    font-variant: small-caps | normal
+
+    font-stretch: small | expanded
+*/
+p {
+    font-variant: small-caps; /* Todas as letras com o visual de caractere minúsculo, mas ainda diferenciando no tamanho  */
+
+    font-stretch: 200%; /* Alargamento ou encolhimento das fontes (de 50% a 200%, ou condensed, stretch */
+}

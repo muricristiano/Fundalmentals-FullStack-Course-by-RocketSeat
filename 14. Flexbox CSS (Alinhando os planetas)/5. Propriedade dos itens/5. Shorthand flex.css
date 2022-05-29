@@ -1,0 +1,35 @@
+/* 
+    SHORTHAND
+
+    flex:
+
+    O FLEX BASIS SEMPRE SERÁ MAIS FORTE QUE AS OUTRAS DEFINIÇÕES FLEXÍVEIS
+    - flex-grow | flex-shrink | flex-basis
+    - pode ter 1, 2 ou 3 valores.
+    - default: 1, 1, 0;
+
+
+    Ao usar 2 valores, e o segundo for unidades de medidas: px, rem, automaticamente será o flex-basis.
+
+
+    O FLEX BASIS SEMPRE SERÁ MAIS FORTE QUE AS OUTRAS DEFINIÇÕES FLEXÍVEIS
+*/
+
+.container {
+    display: flex;
+    border: 3px dashed red;
+}
+
+.items {
+    border: 2px solid;
+    flex: 0 1 60px; /* Aqui grow está desligado, shrink desligado, flex-basis a 60px */ 
+}
+
+
+/* 
+    Exemplos
+
+    Flex ligado, distribuindo e crescendo elementos por igual, shrink desligado, 'procurando definir como basis, 60px, mas cedendo ao flex-grow a definição de tamanho:
+    flex: 1 60px
+
+*/

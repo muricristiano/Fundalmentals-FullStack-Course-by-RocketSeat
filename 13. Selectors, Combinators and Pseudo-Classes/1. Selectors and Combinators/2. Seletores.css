@@ -1,0 +1,51 @@
+/* 
+    select:
+        element (todos os elementos do tipo)
+        class (Identificação de um possível "grupo" (classificação) de elementos
+        id (Identificação única de um elemento)
+
+    seletor de atributos
+        - dependendo do estado / exemplo: se o mouse estiver em cima
+            - substitui seletor de elementos / classes
+            - não substitui seletores de ID
+*/
+
+
+/* 
+    element-selector
+*/
+p {
+    color: grey;
+}
+
+/* 
+    id (id único para um elemento)
+ */
+#paragrapherId {
+    color: blue;
+}
+
+/* 
+    class (pode ser múltipla, class significa classificação)
+ */
+.a {
+    color: orange;
+}
+
+/* 
+    atributes (Todos os elementos que possuem um atributo específico)
+ */
+[title] {
+     color: red;
+}
+
+
+/* 
+    Pseudo class-selector / estados ou states / "Ao passar o mouse em cima"
+
+    substitui seletores - element | class
+    - ID RESISTE
+ */
+ p:hover{
+     color:green;
+ }

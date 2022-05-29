@@ -1,0 +1,25 @@
+/* 
+    align-items
+    - alinhamento dos elementos no eixo CROSS (cruzado)
+
+    values
+
+    align-items:
+    - stretch (default)
+    - flex-start
+    - flex-end
+    - center
+*/
+
+.box{
+    display: flex;
+    justify-content: center; /* Direção do (main), de acordo com o flex-direction (default: row)*/
+    /* Dependendo do flex-direction (main line), o cross será alterado de acordo pelo 'align-items' de acordo */
+    align-items: center; /* stretch (default) | center | flex-start | flex-end*/
+    border: 1px dashed red;
+    height: 100px;
+}
+
+.items{
+    border: 1px solid;
+} 

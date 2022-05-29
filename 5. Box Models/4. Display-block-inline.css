@@ -1,0 +1,25 @@
+/* 
+    É possível alterar o comportamento dos elementos no display
+
+    display: block;  (Altera o display e o comportamento do elemento, <span> pode por exemplo ter um comportamento block, podendo alterar altura e largura)
+
+    display: inline; (Da mesma forma, altera o comportamento para display inline, pode por exemplo transformar uma <div> em um display inline.
+
+    Exemplos abaixo:
+
+*/
+
+span{
+    /* Todo elemento display Inline, não é possível alterar seu tamanho de ocupação, nem de altura e nem de largura, além disso, margin(espaço externo à borda), padding (espaço interno à borda), border (a grossura da borda também aumenta o tamanho da box)*/
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+div {
+    /* Já todo elemento display block, é possível alterar tanto sua altura quanto sua largura, mas por padrão os display block ocupam toda a linha (100% da width */
+    height: 100px;
+    width: 200px;
+    border: 1px solid;
+}
+

@@ -1,0 +1,26 @@
+/* 
+        position: fixed 
+
+        CRIA UMA NOVA CAMADA / FICA FIXO NO SCROLL
+
+        top | right | bottom | left | z-index
+*/
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+.box1 {
+    background-color: red;
+    position: fixed; 
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: blue;
+}

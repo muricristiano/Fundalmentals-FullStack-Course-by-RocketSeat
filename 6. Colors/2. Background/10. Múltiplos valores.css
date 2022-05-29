@@ -1,0 +1,12 @@
+* {
+    margin: 2px;
+}
+
+header {
+    height: 1500px;
+    width: 1500px;
+    border: 7px dashed red;
+    padding: 50px;
+    /* linear-gradient + logo background at top left */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 1)), url(http://source.unsplash.com/random) no-repeat left top / 100px 100px border-box border-box fixed;     
+}

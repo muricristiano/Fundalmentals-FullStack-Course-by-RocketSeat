@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="5. Sibling combinator.css">
+</head>
+<!-- 
+    Adjacent sibling combinator / SELECIONA O PRIMEIRO IRMÃO NO CÓDIGO ABAIXO
+    &
+    All siblings combinator / SELECIONA TODOS OS IRMÃOS ESPECIFICO DO ELEMENTO ESPECIFICO
+
+    1. Adjacent sibling combinator / SELECIONA O PRIMEIRO IRMÃO APENAS
+
+    Identificado pelo sinal '+' entre dois seletores
+    Seleciona somente o elemento após o '+'
+
+    2. All siblings combinator / SELECIONA TODOS OS IRMÃOS ESPECIFICO DO ELEMENTO ESPECIFICO
+    Identificado pelo sinal '~' entre dois seletores
+    Seleciona somente os elementos após o "~" 
+ -->
+<body>
+    <article>
+        <p>p, irmão mais velho do h1 abaixo (para fazer funcionar a seleçao p + h1{}</p>
+        <h1>Título</h1>
+        <p>Paragrafo 1 - irmão direto do h1 que esteja "abaixo" no código(aqui funcionou a seleção h1 + p</p>
+        <p>Paragrafo 2 - para demonstrar que só funcionará no primeiro irmão abaixo na ordem do código</p>
+    </article>
+----------- Aqui está a divisão de 2 articles ---------
+    <article>
+        <h2>Título h2</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <span>um &lt;span&gt; no meio dos paragrafos não corta a seleção</span>
+        <p>Parágrafo 3</p>
+    </article>
+</body>
+</html>

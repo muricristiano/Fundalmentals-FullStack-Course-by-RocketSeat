@@ -1,0 +1,22 @@
+/* 
+    Agora seleciona ESTRITAMENTE, separados po ">"
+
+    nesse exemplo o css está:
+    body > ul > li {
+
+    }
+
+    Sendo assim, somente li, que são filhos diretos de ul, que são filhos direto de body, serão selecionados.
+
+    Exemplo abaixo no CSS.
+*/
+
+body > ul > li {
+    color: blue;
+}
+
+/* Caso toda essa especificação tenha filhos abaixo ou pais acima, continua funcionando
+
+    Apenas se tiver uma hierarquia no meio da especificação
+
+*/

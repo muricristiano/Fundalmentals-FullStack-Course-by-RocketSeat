@@ -1,0 +1,4 @@
+.box::after{
+    content: "Aqui uma string"; /* Aqui um String pelo CSS através do 'content:' */
+    color: red;
+}

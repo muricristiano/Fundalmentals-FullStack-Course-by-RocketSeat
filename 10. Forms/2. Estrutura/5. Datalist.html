@@ -1,0 +1,51 @@
+<!-- 
+    <datalist>
+
+    - lista de sugestões a uma <input>
+    - valores sugestivos e não obrigatórios
+    - usuário poderão selecionar um dos valores, ou colocar um valor diferente da sugestão
+
+    Como cria e define ID para ser chamado pelo <input> (datalist utiliza "id", input utiliza "list=")
+    <datalist id="fruitdata">
+        <option>apple</option>
+        <option>banana</option>
+        <option>orange</option>
+        <option>lemon</option>
+        <option>cherry</option>
+    </datalist>
+
+    # list
+
+    - Recebe como valor o id de um <datalist> residente no mesmo documento
+
+    Tipos de input não suportados (conforme especificação)
+    - hidden, password, checkbox, radio, file, ou qualquer tipo de button
+
+        Possível fazer com cores também
+
+ -->
+ <input 
+    type="text"
+    list="fruitsdata"
+    placeholder="Escolhe uma fruta"    
+>
+
+ <datalist id="fruitsdata">
+    <option>apple</option>
+    <option>banana</option>
+    <option>orange</option>
+    <option>lemon</option>
+    <option>cherry</option>
+</datalist>
+
+<br>
+<!-- Exemplo de cores -->
+<input 
+    type="color"
+    list="colordata">
+
+<datalist id="colordata">
+    <option value="#ff0000"></option>
+    <option value="#00ff00"></option>
+    <option value="#0000ff"></option>
+</datalist>

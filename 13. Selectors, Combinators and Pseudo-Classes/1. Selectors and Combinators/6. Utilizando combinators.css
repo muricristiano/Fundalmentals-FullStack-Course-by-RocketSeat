@@ -1,0 +1,9 @@
+/* 
+    Utilizando múltiplos tipos de combinadores juntos
+*/
+
+/* Selecionar TODOS os 'li' de classe = 'red', todos que SÃO FILHOS diretos de ul */
+ul > li[class="red"]{
+    color: red;
+}
+

@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    border: solid red;
+    height: 100px;
+}
+
+.item {
+    background-color: 1px gray;
+    border: solid;
+    flex: 1; /* Preencheu todo o espaço da caixa distribuidamente de forma flexível, remova para ver como fica por padrão */
+}

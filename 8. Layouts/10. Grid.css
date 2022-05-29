@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    height:100vh;
+
+    /* Altera o body para display:grid */
+    display:grid; 
+
+    /* Aqui exatamente como está, cria linhas e colunas, já nomeando o que ocupará cada espaço. NOS ELEMENTOS FILHOS, DEVE SER DECLARADO COMO NO EXEMPLO: "grid-area: header" / "grid-area: main / etc... */
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+
+    /* Aqui, é o espaço que cada linha ocupa de altura, aqui o header tá fixo 50px, o main/aside são flexíveis conforme o tamanho da página se alterar (aumenta e diminui), e o footer é fixo 50px */
+    grid-template-rows: 
+    50px
+    1fr
+    50px;
+
+    /* Aqui, é o espaço que cada coluna ocupa horizontalmente, aqui nesse exemplo só o main e o aside se alterarão pois o main e footer já ocupam todo o seu espaço horizontal na suas respectivas linhas. Aqui nesse exemplo a primeira coluna ocupa o espaço flexível que tiver, já o aside, ocupa fixamente 150px de largura.*/
+    grid-template-columns: 
+    1fr
+    150px;
+}
+
+header{
+    background-color:yellow;
+    grid-area: header;
+}
+
+main{
+    background-color:orange;
+    grid-area: main;
+}
+
+aside{
+    background-color:darkorange;
+    grid-area: aside;
+}
+
+footer{
+    background-color: red;
+    grid-area: footer;
+}

@@ -1,0 +1,22 @@
+/* 
+    SHORTHAND
+    font:
+
+    font-style
+    font-variant
+    font-weight
+    font-stretch 
+    font-size 
+    /   (size e line-height devem ser separado pela "/")
+    line-height
+    font-family 
+*/
+
+h1 {
+    font: small-caps bold 50px/2 Hurricane;
+}
+
+
+p {
+    font: italic normal bold normal 1.1em/1.5 Palette Mosaic, sans-serif;
+}

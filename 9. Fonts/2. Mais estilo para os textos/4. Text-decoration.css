@@ -1,0 +1,22 @@
+p {
+    text-decoration: underline wavy red; 
+}
+
+/*    
+    text-decoration (example: text-decoration: underline wavy red;)
+
+    Values:
+    underline - linha abaixo
+    overline - linha acima
+    linethrough - linha através no meio
+
+    Styles
+    solid - DEFAULT
+    wavy - ondas
+    dashed - riscos
+    dotted - pontinhos
+
+    Color
+
+    Exemplo: 
+        text-decoration: underline wavy red;     */

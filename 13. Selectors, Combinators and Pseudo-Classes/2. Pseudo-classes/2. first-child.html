@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2. first-child.css">
+</head>
+<!-- 
+
+
+ -->
+<body>
+    <h2>h2</h2>
+    <ul>
+        <li>li A, aqui o 'li' é first-child do 'ul', o h2 está fora</li>
+        <li>li B</li>
+        <li>li C</li>
+    </ul>
+--------------------------------
+    <ul>
+        <h2>h2</h2>
+        <li>li A, aqui o 'li' é o primeiro 'li' dentro do 'ul', mas não é o primeiro filho do 'ul', é o 'h2', então a seleção não funcionará, precisa ser primeiro filho e precisa ser o tipo selecionado</li>
+        <li>li B</li>
+        <li>li C</li>
+    </ul>
+</body>
+</html>

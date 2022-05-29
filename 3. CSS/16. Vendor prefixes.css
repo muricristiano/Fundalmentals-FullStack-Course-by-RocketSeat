@@ -1,0 +1,10 @@
+/*     
+Permite que o broser adicione features a fim de colocar em uso alguma novidade que vemos no CSS
+*/
+
+p {
+    -webkit-background-clip: text; /* Chrome, safari, IOS e Android */
+    -moz-background-clip: text; /*  Mozilla */
+    -ms-background-clip: text; /* IE */
+    -o-background-clip: text; /* Opera */
+}

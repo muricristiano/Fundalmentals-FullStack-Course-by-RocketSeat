@@ -1,0 +1,29 @@
+<!-- 
+    <optgroup>
+        - controle que fornece um menu de opções, mas dividindo entre categorias as opções. (Podendo ser escolhido uma por padrão ou múltiplas caso configurado
+        
+    Como o option:
+        - contém as opções a serem selecionadas
+        - atributos necessários
+            - value
+    
+    # Atributos únicos
+        - multiple
+            Habilita múltiplas opções
+        - size
+            quantas opções visíveis ao abrir as opções? 
+-->
+
+
+<label for="carselect">Choose your car: </label>
+<select name="carmodel" id="carselect">
+    <optgroup label="VINTAGE"> <!-- Essa label não é selecionável -->
+        <option value="mustang69">Mustang 1969</option>
+        <option value="charger">Charger RT</option>
+    </optgroup>
+
+    <optgroup label="NEW"> <!-- Essa label não é selecionável -->
+        <option value="mustang22">Mustang 2022</option>
+        <option value="challenger">Dodge Challenger</option>
+    </optgroup>
+</select>

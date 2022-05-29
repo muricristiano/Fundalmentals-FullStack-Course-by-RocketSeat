@@ -1,0 +1,7 @@
+div {
+    border: 1px solid;
+
+    padding: 10px 1em 8px 50%;
+    /* 50% do espaço total do elemento (seria na metade dele), como pode ver onde começa o conteúdo */
+
+}

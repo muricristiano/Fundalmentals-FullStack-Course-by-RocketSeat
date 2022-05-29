@@ -1,0 +1,34 @@
+<!-- 
+    <button>
+        - representa um botão
+        - usado para enviar formulários
+        - é estilizado por padrão pelo user agent (browser)
+
+    Atributos comuns
+        - type
+            - submit (envia)
+            - reset (limpa)
+            - button
+
+        - autofocus (primeiro autofocus definido, estará preparado para pressionar Enter)
+
+        - disabled (desativa o botãom, pode ser uma forma de evitar que seja enviado sem algum dado obrigatório)
+
+        - name (Para manipular essa informação onde você recebe o valor, conteúdo mais à frente)
+
+        - value (Valor que será recebido onde será manipulado)
+        
+        - form (linkar form= do button, com o id= do form)
+
+    É possível fazer um input, do type submit (é possível, mas não foi recomendado mais do que criar diretamente um <button>)
+ -->
+ <form action="">
+    <input type="text">
+    <button type="reset">type="reset" para limpar</button> <!-- Envia os dados -->
+</form>
+
+<form action="">
+    <input type="text">
+    <button type="submit" autofocus>type="submit" para enviar</button> <!-- Envia os dados -->
+</form>
+

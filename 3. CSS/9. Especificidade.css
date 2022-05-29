@@ -1,0 +1,30 @@
+/* 
+    Especificidade
+    Força dos elementos, cada tipo de seletor possui uma força/valor a serem considerados
+
+    Cria camadas de prioridade
+    A primeira execução que vale, é a partir da força do elemento 0, e subsequentemente vem cada camada por cima cujo possuem forças maiores para sobreescrever, a ordem só obedece caso a força seja a mesma. na mesma camada de força
+
+    0. Universal selector, combinators e negation pseudo-class :not()
+    
+    1. Element type selector e pseudo-elements ::before, ::after - Elementos diretos, somam-se ao aninhar seletores por exemplo "body h1", criando 2 pontos, sendo assim sobreescrevendo elementos que estão na camada de força inferior como nesse exemplo caso tivesse "h1" que está dentro do body mas não foi especificado em outra alteração do css.
+    
+    10. Classes e attribute selectors [type="radio"] - Pela classe, bem específico, pela classificação.
+    
+    100. ID Selector - Pelo ID, muito específico
+    
+    1000. Inline - É o style dentro do próprio elemento HTML. é o mais forte.
+
+
+*/
+
+p
+
+h1 {
+    color:blue;
+}
+
+
+* {
+    color:green; /* Altera a cor de tudo, porém a força do global é 0, então mesmo seletores que estão acima, sendo antes deste aqui, terão mais força */
+}

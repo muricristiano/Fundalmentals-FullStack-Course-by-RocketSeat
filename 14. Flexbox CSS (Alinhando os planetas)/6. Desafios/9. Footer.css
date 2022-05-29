@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    flex-basis: 90%;
+}
+
+footer {
+    display: flex;
+    flex-basis: 80px;
+    background: grey;
+    justify-content: center;
+    align-items: center;
+}

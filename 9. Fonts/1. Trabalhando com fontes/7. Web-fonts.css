@@ -1,0 +1,10 @@
+/* 
+    link (Goole fonts, link é a opção mais rápida, mais limpa.(pois importa no head do html)) - HTML - (USADO NESSE EXEMPLO)
+    @import (Importa a fonte, pelo Google também) - CSS
+    @font-face (Envia nossa fonte local para o servidor onde hospedamos nossa páginas, PESQUISAR NO MDN)
+*/
+
+p {
+    /* Foi importado no head do html, o link criado pelo fonts.google.com */
+    font-family: 'Palette Mosaic', sans-serif; 
+}

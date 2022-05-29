@@ -1,0 +1,28 @@
+<!-- 
+    <input type="search">
+
+    - para campos de busca
+    - é igual ao campo do tipo 'text' mas poderá ser um pouco diferente dependendo do user agent
+
+    # Atributos
+        - list / <datalist>
+        - pattern (podendo criar padroes de numeros para buscar por exemplo, ou data)
+        - aria-label
+ -->
+
+ <datalist id="searchterms">
+     <option>Mac</option>
+     <option>Win</option>
+     <option>Linux</option>
+ </datalist>
+ 
+ <!-- Aria-label="" Serve para a acessibilidade já que o campo pesquisa geralmente não possui um label descrevendo a "pesquisa" antes do input -->
+ <form action="">
+    <input 
+        type="search" 
+        name="q" 
+        list="searchterms"
+        aria-label="Campo de pesquisa" 
+    >
+    <button>Pesquisar</button>
+ </form>

@@ -1,0 +1,4 @@
+/* Selecionando, o primeiro filho do ul, e a verificação de que é 'li', para funcionar */
+ul li:nth-child(1){
+    color: red;
+}

@@ -1,0 +1,5 @@
+/* Aqui seleciona o tipo de elemento a ser alterado */
+h1 {
+    color:blue; /* Aqui dentro altera os elementos, a linguagem muda um pouco */
+    font-size: 60px;
+}
