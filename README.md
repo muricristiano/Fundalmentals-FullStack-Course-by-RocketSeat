@@ -12,6 +12,3 @@ SQL
 Data Structure
 Git
 Github
-
-
-
